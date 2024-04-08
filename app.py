@@ -1,8 +1,6 @@
-from flask import Flask, render.template
+from flask import Flask, rander.template
 app = Flask('__name__')
 
-@app.route(/)
-def index( ):
-    return render.template(index.html)
+
 
 
